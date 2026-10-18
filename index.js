@@ -19,6 +19,7 @@ const {
 // ─── Config ───────────────────────────────────────────────────────────────────
 const TOKEN       = process.env.DISCORD_TOKEN;
 const CLIENT_ID   = process.env.CLIENT_ID;
+const GUILD_ID    = process.env.GUILD_ID; // optional — set for instant command registration
 const EXEC_TIMEOUT = 12_000; // 12 s max execution
 const MAX_SIZE     = 500_000;
 
